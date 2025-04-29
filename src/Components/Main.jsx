@@ -3,7 +3,7 @@ import BlogList from "./BlogList"
 export default function Main({ displayCardsData }) {
 
     return (
-        <main className='flex flex-col gap-6 p-10 mx-30 px-10 max-sm:px-5 max-sm:p-2 max-sm:gap-3 max-sm:mx-4 overflow-auto'>
+        <main className='flex flex-col gap-6 p-10 mx-30 px-10 max-sm:px-5 max-sm:p-2 max-sm:gap-3 max-sm:mx-4'>
 
                 <div className='flex gap-2 max-sm:mt-2 items-center'>
                     <img src="/blogs_icon.svg" className='h-15 w-15' alt="blogs_icon" />

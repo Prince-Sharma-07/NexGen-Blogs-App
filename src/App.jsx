@@ -14,7 +14,7 @@ export default function App() {
   }
 
   return (
-    <div className='min-h-screen bg-[#364153]' >
+    <div className='min-h-screen bg-[#364153]'>
       {toggleCard && <BlogModal handleOpenClose={handleOpenClose} cardsData={cardsData} setDisplayCardsData={setDisplayCardsData} setCardsData={setCardsData}/>}
       <Header handleOpenClose={handleOpenClose} cardsData={cardsData} setDisplayCardsData={setDisplayCardsData}/>
       <Main displayCardsData={displayCardsData}/>
